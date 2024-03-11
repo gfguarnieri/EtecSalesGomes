@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inputs</title>
+    <title>Inputs - Introdução</title>
 </head>
 
 <body>
@@ -15,40 +15,42 @@
             Campo de Texto simples com placeholder:
             <br>
             <i>Sobre os atributos do Input: </i>
-            <ul>
-                <li>
-                    <strong>type</strong>: Define o tipo da entrada de dados.
-                    <ul>
-                        <li>text</li>
-                        <li>date</li>
-                        <li>email</li>
-                        <li>file</li>
-                        <li>number</li>
-                    </ul>                    
-                </li>
-                <li>
-                    <strong>placeholder</strong>: Apresenta um texto temporário no campo de texto informando o valor esperado no campo.
-                </li>
-                <li>
-                    <strong>maxlength</strong>: Quantidade máxima de caracteres no campo
-                </li>
-                <li>
-                    <strong>minlength</strong>: Quantidade mínima de caracteres no campo
-                </li>
-                <li>
-                    <strong>autocomplete</strong>: Habilita (on) ou desabilita (off) sugestões no campo
-                </li>
-            </ul>
-            <br>
-            <i>Sobre o atributos do Label: </i>
-            <ul>
-                <li><strong>for</strong>: Relaciona o label ao input (precisa ter como valor o ID do input)</li>
-            </ul>
+        <ul>
+            <li>
+                <strong>type</strong>: Define o tipo da entrada de dados.
+                <ul>
+                    <li>text</li>
+                    <li>date</li>
+                    <li>email</li>
+                    <li>file</li>
+                    <li>number</li>
+                </ul>
+            </li>
+            <li>
+                <strong>placeholder</strong>: Apresenta um texto temporário no campo de texto informando o valor
+                esperado no campo.
+            </li>
+            <li>
+                <strong>maxlength</strong>: Quantidade máxima de caracteres no campo
+            </li>
+            <li>
+                <strong>minlength</strong>: Quantidade mínima de caracteres no campo
+            </li>
+            <li>
+                <strong>autocomplete</strong>: Habilita (on) ou desabilita (off) sugestões no campo
+            </li>
+        </ul>
+        <br>
+        <i>Sobre o atributos do Label: </i>
+        <ul>
+            <li><strong>for</strong>: Relaciona o label ao input (precisa ter como valor o ID do input)</li>
+        </ul>
         </p>
 
         <div>
             <label for="nome">Nome completo:</label>
-            <input type="text" placeholder="Digite aqui o seu nome" id="nome" name="nome" maxlength="20" minlength="3" autocomplete="off">
+            <input type="text" placeholder="Digite aqui o seu nome" id="nome" name="nome" maxlength="20" minlength="3"
+                autocomplete="off">
         </div>
     </section>
 
@@ -58,16 +60,17 @@
             Campo Numérico:
             <br>
             <i>Sobre os atributos do Input do tipo numérico: </i>
-            <ul>
-               <li><strong>min</strong>: Define o valor mínimo permitido</li>
-               <li><strong>max</strong>: Define o valor máximo permitido</li>
-               <li><strong>value</strong>: Define um valor inicial para o campo</li>
-            </ul>
+        <ul>
+            <li><strong>min</strong>: Define o valor mínimo permitido</li>
+            <li><strong>max</strong>: Define o valor máximo permitido</li>
+            <li><strong>value</strong>: Define um valor inicial para o campo</li>
+        </ul>
         </p>
 
         <div>
             <label for="qtdfilhos">Quantidade de filhos:</label>
-            <input type="number" placeholder="Digite aqui a quantidade de filhos" id="qtdfilhos" name="qtdfilhos" value="0" min="0"  max="10" autocomplete="off">
+            <input type="number" placeholder="Digite aqui a quantidade de filhos" id="qtdfilhos" name="qtdfilhos"
+                value="0" min="0" max="10" autocomplete="off">
         </div>
     </section>
 
@@ -77,16 +80,17 @@
             Campo Data:
             <br>
             <i>Sobre os atributos do Input do tipo Data: </i>
-            <ul>
-               <li><strong>min</strong>: Define o valor mínimo permitido</li>
-               <li><strong>max</strong>: Define o valor máximo permitido</li>
-               <li><strong>value</strong>: Define um valor inicial para o campo</li>
-            </ul>
+        <ul>
+            <li><strong>min</strong>: Define o valor mínimo permitido</li>
+            <li><strong>max</strong>: Define o valor máximo permitido</li>
+            <li><strong>value</strong>: Define um valor inicial para o campo</li>
+        </ul>
         </p>
 
         <div>
             <label for="datanascimento">Data de nascimento:</label>
-            <input type="date" id="datanascimento" name="datanascimento" value="1994-06-28" min="1900-01-01" max="2006-01-01">
+            <input type="date" id="datanascimento" name="datanascimento" value="1994-06-28" min="1900-01-01"
+                max="2006-01-01">
         </div>
     </section>
 
@@ -96,9 +100,9 @@
             Campo Checkbox:
             <br>
             <i>Sobre os atributos do Input do tipo Checkbox: </i>
-            <ul>
-               <li><strong>checked</strong>: Quando adicionado, deixa o checkbox já marcado</li>
-            </ul>
+        <ul>
+            <li><strong>checked</strong>: Quando adicionado, deixa o checkbox já marcado</li>
+        </ul>
         </p>
 
         <div>
@@ -106,6 +110,8 @@
             <label for="termos">Li e aceito os termos:</label>
         </div>
     </section>
+
+    <a href="atividade_fixacao_1.html">Link para a atividade de fixação</a>
 
 </body>
 
