@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos em Inputs</title>
+    <script src="script.js" defer></script>
+    <style>
+        .quadrado{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            transition: all 500ms;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Trabalhando com eventos em Input</h1>
+
+    <section class="exemplo">
+        <h2>Keydown</h2>
+        <p>
+            Evento que acontece ao pressionarmos uma tecla
+        </p>
+        <div>
+            <label for="exemplo-keydown">
+                Exemplo KeyDown:
+            </label>
+            <input type="text" id="exemplo-keydown" name="exemplo-keydown" autocomplete="off">
+            <br>
+            <p id="espelho-exemplo-keydown"></p>
+        </div>
+    </section>
+
+    <section class="exemplo">
+        <h2>Keydown</h2>
+        <p>
+            Evento que acontece ao pressionarmos uma tecla
+        </p>
+        <div>
+            <label for="exemplo-keyup">
+                Exemplo KeyUp:
+            </label>
+            <input type="text" id="exemplo-keyup" name="exemplo-keyup">
+            <br>
+            <div class="quadrado" id="quadrado-keyup"></div>
+        </div>
+    </section>
+
+    <section class="exemplo">
+        <h2>Focus e Blur</h2>
+        <p>
+            Focus: Evento que acontece quando o elemento recebe o foco.
+        </p>
+        <p>
+            Blur: Evento que acontece quando o elemento perde o foco.
+        </p>
+        <div>
+            <label for="exemplo-focus">
+                Exemplo:
+            </label>
+            <input type="text" id="exemplo-focus" name="exemplo-focus">
+        </div>
+    </section>
+
+    <section class="exemplo">
+        <h2>Exemplo - Senha com pelo menos 6 caracteres</h2>
+        <div>
+            <label for="exemplo-senha">
+                Senha:
+            </label>
+            <input type="password" id="exemplo-senha" name="exemplo-senha">
+            <span id="dica-senha"></span>
+        </div>
+    </section>
+
+    <section class="exemplo">
+        <h2>Exemplo - Email</h2>
+        <div>
+            <label for="exemplo-email">
+                Email:
+            </label>
+            <input type="email" id="exemplo-email" name="exemplo-email">
+            <span id="dica-email"></span>
+        </div>
+    </section>
+
+</body>
+
+</html>
